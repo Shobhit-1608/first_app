@@ -8,7 +8,4 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-    fun clickHandler(view: View) {
-        Toast.makeText(this,"welcome to android",Toast.LENGTH_SHORT).show()
-    }
 }
